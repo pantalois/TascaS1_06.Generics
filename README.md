@@ -23,7 +23,3 @@ Open the project with your preferred IDE.
 ▶️ Execution
 
 Compile and run the Main.java files for the exercise you are working on to see the execution.
-
-Go to the "test" directory to run them and check that everything is working correctly.
-
-The program should handle all possible error cases; I hope you don't encounter any.
