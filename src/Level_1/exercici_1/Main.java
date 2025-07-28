@@ -6,12 +6,12 @@ public class Main {
         NoGenericMethods test = new NoGenericMethods("Lois", "González", "Pantalois");
         System.out.println(test);
 
-        test.setName("Diego");
-        test.setSurname("Nuñez");
-        test.setNickname("Quecowa");
+        String name = "Diego";
+        String surname1 = "Nuñez";
+        String surname2 = "Quecowa";
 
-        System.out.println(test.getName());
-        System.out.println(test.getSurname());
-        System.out.println(test.getNickname());
+        System.out.println(new NoGenericMethods(name, surname1, surname2));
+        System.out.println(new NoGenericMethods(surname1, surname2, name));
+        System.out.println(new NoGenericMethods(surname2, name, surname1));
     }
 }
